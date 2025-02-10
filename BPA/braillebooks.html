@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BPA - Home</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <style>
+        /* Reset styles */
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Body styles */
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        /* Container styles */
+        .container {
+            max-width: 1300px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #01320f;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            font-style: italic;
+        }
+
+        /* Navigation styles */
+        nav {
+            background-color: #02411c;
+            text-align: center;
+            padding: 10px 0;
+        }
+
+        nav ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            color: #ffffff;
+            font-size: 1.2rem;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: #92ea8d; /* Change color to black on hover */
+        }
+
+        /* Main content styles */
+        .main-content {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-top: 20px;
+        }
+
+        .content-text {
+            max-width: 600px;
+            text-align: justify;
+            margin: 10; /* Center the text */
+        }
+
+        .content-text p {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+        .content-text-2 {
+            max-width: 1500px;
+            text-align: justify;
+            margin: 10; /* Center the text */
+        }
+
+        .content-text-2 p {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+            text-align: justify;
+        }
+
+        .image-container {
+            max-width: 50%;
+        }
+
+        .image-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Table styles */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th,
+        td {
+            padding: 10px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #01320f;
+            color: #fff;
+        }
+
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        footer {
+            background-color: #01320f;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        footer p {
+            font-size: 1rem;
+        }
+        #braillebooks a,
+        .braillebooks a {
+        color: #92ea8d; /* Green color */
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <h1>Blind Person's Association</h1>
+            <p>THE PREMIER ORGANIZATION OF AND FOR THE SIGHTLESS IN WEST BENGAL</p>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="home.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li class="braillebooks"><a href="braillebooks.html">Braille-Books</a></li>
+                <li><a href="#">Audio-Books</a></li>
+                <li><a href="#">Shrutikalpa</a></li>
+                <li><a href="#">Articles</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="scholarship.html">Scholarship</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="contactus.html">Contact Us</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="main-content">
+            <div class="content-text">
+                <p>We provide Braille books to blind students in India for INR 10 per Braille volume. Institutions can buy these books at paper cost. Our objective is to ensure that visually impaired students have access to Braille books at an affordable price. Braille books are hardly available in India on account of their huge production cost. The following list consists of the paper cost of the books produced at the Braille press at Lal Bihari Shah Braille Academia. For any information, call <a href="tel:9433124108">9433124108</a> or send us an email at <a href="mailto:bpaindia@gmail.com">bpaindia@gmail.com</a>.</p>
+            </div>
+            <div class="image-container">
+                <img src="Braille-Reading.png" alt="Braille Books Image">
+            </div>
+        </div>
+
+        <h2>Braille Books in Bengali</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Volumes</th>
+                    <th>Price (INR)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Alan McConnell Duff</td>
+                    <td>Tiger's Eye (a BBC guide to English)</td>
+                    <td>3</td>
+                    <td>291.00</td>
+                </tr>
+                <!-- Add more rows for other books -->
+            </tbody>
+        </table>
+
+        <h2>Braille Books in English</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Author</th>
+                    <th>Title</th>
+                    <th>Volumes</th>
+                    <th>Price (INR)</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>A. M. I. Fiskin</td>
+                    <td>CliffsNotes on Congreve’s Way of the World</td>
+                    <td>1</td>
+                    <td>91.00</td>
+                </tr>
+                                <!-- Add more rows for other books -->
+            </tbody>
+        </table>
+
+        <div class="container">
+            <div class="content-text-2">
+                <h2 style="text-align: left; font-size: 2.3rem; margin-top: 50px;">HOW TO BUY BRAILLE BOOKS</h2>
+                <p>Order for Braille books may be sent to the Braille press at:</p>
+                <address>
+                    Lal Bihari Shah Braille Academia<br>
+                    Bidyapalli, Malancha-Mahinagar<br>
+                    Kolkata – 700145<br>
+                    Phone: 9433124108<br>
+                    Email: <a href="mailto:bpaindia@gmail.com">bpaindia@gmail.com</a>
+                </address>
+                <p>Send your order with payment in advance in demand draft or money order. Payment should include INR 30 as shipping and handling charge for every three Braille volumes. Processing may take a week or two, subject to the number of Braille volumes, postal service, etc. We use postage-free service for Braille literature offered by the post offices. Still, we have to charge extra for packing books and sending them to a distant post office.</p>
+                <p>We supply Braille books anywhere in India. We need your full mailing address with postal code.</p>
+                <p>Demand drafts should be drawn in favor of Blind Persons’ Association payable in any scheduled bank in Kolkata. Orders or demand drafts may preferably be sent using government postal service.</p>
+                <p>You may also make payment using net banking facility directly to this bank account:</p>
+                <table style="margin: 0 auto;">
+                    <thead>
+                        <tr>
+                            <th>Account Holder</th>
+                            <th>Bank & Branch</th>
+                            <th>Current Bank Account Number</th>
+                            <th>IFS Code</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Blind Persons’ Association</td>
+                            <td>IDBI Bank, Narendrapur Branch</td>
+                            <td>0419102000010292</td>
+                            <td>IBKL0000419</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <p>Send us an email intimating your transaction ID, date, and amount, list of books, and full delivery details.</p>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container">
+            <p>&copy; 2024 BPA. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
